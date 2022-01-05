@@ -18,30 +18,21 @@
   font-weight: 400;
   font-size: 22px;
 }
-
-.first-section .navbar {
-  background-color: transparent!important;
-}
-.navbar-brand{
-  color: #fff;
-}
-.nav-link{
-  color: #fff;
-}
-.nav-link:hover,
-.nav-link:focus{
-  color: #fff;
-}
-.btn-link{
-  color: #000;
-  font-size: 22px;
-}
-.card-text{
+ .card-text{
   color: #000;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
 }
+ .card{
+   margin-bottom: 30px;
+   height: 360px;
+ }
+ .card-title{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+ }
 .img-box{
   height: 250px;
   position: relative;
