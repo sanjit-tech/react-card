@@ -37,7 +37,7 @@ getCardData =()=>{
                             <div className="col-md-6 col-lg-4">
                                 <div className="card">
                                     <div className="img-box">
-                                        <img src={photo} className="card-img-top" alt={name}/>
+                                        <img src={photo ? photo : require('../06.png')} className="card-img-top" alt={name}/>
                                     </div>
                                     <div className="card-body">
                                         <h5 className="card-title">{name}</h5>
