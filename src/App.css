@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.heading-h1 {
+  font-size: 3rem;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+
+}
+.heading-h2 {
+  font-size: 2.5rem;
+  color: #7287AE;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+
+}
+.para {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.first-section .navbar {
+  background-color: transparent!important;
+}
+.navbar-brand{
+  color: #fff;
+}
+.nav-link{
+  color: #fff;
+}
+.nav-link:hover,
+.nav-link:focus{
+  color: #fff;
+}
+.btn-link{
+  color: #000;
+  font-size: 22px;
+}
+.card-text{
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.img-box{
+  height: 250px;
+  position: relative;
+}
+.img-box img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
